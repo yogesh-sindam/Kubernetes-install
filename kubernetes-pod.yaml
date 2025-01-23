@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-pod 
+spec:
+  containers:
+  - name: nginx-pod 
+    image: nginx:1.14.2
+    ports:
+    - containerPort: 80
+
+#To create a pod apply this manifest file
+#$kubectl apply -f kubernetes-pod.yaml 
