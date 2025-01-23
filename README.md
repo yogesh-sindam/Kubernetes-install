@@ -1,4 +1,5 @@
 How to install kubernetes cluster (kubeadm setup) on ubuntu:latest
+##################################################################
 
 Kubernetes Nodes:
 In a kubernetes cluster, you will encounter two distinct categories of nodes:
