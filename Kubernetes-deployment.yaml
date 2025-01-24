@@ -21,3 +21,9 @@ spec:
         - containerPort: 80
 
 # kubectl apply -f kubernetes-deployment.yml
+# this deployment is used to create a 3 pods using replicaset=3
+# to check replica set 
+# kubectl get rs
+# kubectl get replicaset 
+# images useded to create a pod is nginx:1.14.2
+
