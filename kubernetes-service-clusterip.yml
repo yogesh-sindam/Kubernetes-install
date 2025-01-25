@@ -1,0 +1,9 @@
+#what service can Load Balancer, Service Discovery, Expose 
+#Basically its 4 types
+#1. ClusterIP
+#2. NodePort
+#3. LoadBalancer
+#4.ExternalNames
+#When you create a service for your deployment or pod, without sepcifing a type: . by default its create a clusterIP 
+#with this CLusterIP service you can mange the traffic around pods inside cluster(not node) 
+#how can acccess the application= only who having access to cluster, they can access the application 
