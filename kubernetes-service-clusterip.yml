@@ -7,3 +7,17 @@
 #When you create a service for your deployment or pod, without sepcifing a type: . by default its create a clusterIP 
 #with this CLusterIP service you can mange the traffic around pods inside cluster(not node) 
 #how can acccess the application= only who having access to cluster, they can access the application 
+#simple service manifest file 
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-service
+spec:
+  selector:
+    app.kubernetes.io/name: MyApp
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 9376
+
+      
