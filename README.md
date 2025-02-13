@@ -63,7 +63,7 @@ $sudo -l  (on each node )
 Update packages and their versions:
 $sudo apt-get update && sudo apt-get upgrade -y 
 
-Install necessary packages: aot-transport-https, curl:
+Install necessary packages: apt-transport-https, curl:
 $sudo apt-get update && sudo apt-get install -y apt-transport-https curl 
 
 Install Docker:
