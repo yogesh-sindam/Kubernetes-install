@@ -104,12 +104,12 @@ Join worker nodes to the master node using the provided join cammand:
 $kubeadm join 172.31.7.146:6443 --token hqqslu.skhds68sdw2q5ks5amy \
         --discovery-token-ca-cert-hash sha256:2c9646e3f969ef14d6d3937f0fd1lfjlgdjfdjl5fdbf954554c06d0686193
 Note: this command will been run on worker node only 
-
+```
 $kubectl get nodes 
 NAME          STATUS   ROLES           AGE    VERSION
 master-node   NotReady    control-plane   144m   v1.32.1
 worker-node   NotReady    <none>          40m    v1.32.1
-
+```
 verify cluster setup:
 $kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
 
