@@ -21,13 +21,13 @@ Minimum 2CPU core (or 2 vCPU's).
 
 Ensure machines in the cluster can ping each other via IP and Hostname: (Run on each nodes)
 ping ip_address
-
+```
 set-hostname (to keep understadable)
 $ sudo su 
 $hostnamectl set-hostname master-node
 $bash
 $hostname 
-
+```
 $ sudo su 
 $hostnamectl set-hostname worker-node
 $bash
