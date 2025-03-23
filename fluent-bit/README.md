@@ -48,7 +48,7 @@ Let’s create a Fluent Bit config file to ship logs to RDS.
     Password          <YOUR-PASSWORD>
     Table             logs
 ```
-# 4. Prepare RDS Database
+## 4. Prepare RDS Database
 Connect to your RDS and create a logs table:
 ```
 CREATE TABLE logs (
@@ -58,4 +58,30 @@ CREATE TABLE logs (
     log_text TEXT
 );
 ```
+## 5. Run Fluent Bit
+For local installs:
+```
+sudo systemctl start fluent-bit
+sudo systemctl enable fluent-bit
+```
+For Kubernetes, update your Helm config and redeploy:
+
+```
+helm upgrade fluent-bit fluent/fluent-bit --set config.file=fluent-bit.conf
+```
+## 6. Test the Setup
+Let’s generate some logs:
+```
+echo "Fluent Bit is now sending logs to RDS!" >> /var/log/test.log
+```
+Then check the database:
+```
+SELECT * FROM logs;
+```
+Expected output:
+You should see the logs showing up with timestamps and hostnames.
+
+
+
+
 
