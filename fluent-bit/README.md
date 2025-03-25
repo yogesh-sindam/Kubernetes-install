@@ -7,7 +7,7 @@ Before we dive into Fluent Bit setup, make sure you have:
 ✅ Fluent Bit installed on your server or Kubernetes
 ✅ DB credentials (hostname, port, user, password, database name)
 ```
-## 2. Install Fluent Bit
+## 2. Install Fluent Bit.
 If you’re running on a server (Linux):
 
 ```
