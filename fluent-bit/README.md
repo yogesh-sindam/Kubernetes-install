@@ -81,6 +81,9 @@ SELECT * FROM logs;
 Expected output:
 You should see the logs showing up with timestamps and hostnames.
 
+will add real-time usecase later
+
+
 
 
 
