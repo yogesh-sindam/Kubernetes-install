@@ -2,16 +2,16 @@
 https://youtu.be/ScHDSoYzWN4?si=iuuK1xkSLAhDf0cp
 ######################################################################
 
-Kubernetes Nodes:
+# Kubernetes Nodes:
 In a kubernetes cluster, you will encounter two distinct categories of nodes:
 
-Master node: These nodes play crucial role in managing the contol API calls for various components within the kubernetes
+# Master node: These nodes play crucial role in managing the contol API calls for various components within the kubernetes
 cluster. this includes overseeing pods, replication controller, services, nodes, and more. 
 
-Worker Node: worker nodes are resposible for providing runtime environments for container. 
+# Worker Node: worker nodes are resposible for providing runtime environments for container. 
 its worth nothing that a group of container pods can extend across multiple worker Nodes, ensuring optimal resource allocation and management.
 
-Pre-requeisites:
+# Pre-requeisites:
 Before diving into the installation, ensure that your environment meets the following conditions:
 
 An ubuntu 24.04 LTS system.
