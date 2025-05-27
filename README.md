@@ -113,14 +113,18 @@ master-node   NotReady    control-plane   144m   v1.32.1
 worker-node   NotReady    <none>          40m    v1.32.1
 ```
 verify cluster setup:
+```
 $kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documentation/kube-flannel.yml
-
+```
+```
 $kubectl get nodes 
 NAME          STATUS   ROLES           AGE    VERSION
 master-node   Ready    control-plane   144m   v1.32.1
 worker-node   Ready    <none>          40m    v1.32.1
-
+```
+```
 $kubectl get nodes -o wide 
 NAME          STATUS   ROLES           AGE    VERSION   INTERNAL-IP    EXTERNAL-IP   OS-IMAGE             KERNEL-VERSION   CONTAINER-RUNTIME
 master-node   Ready    control-plane   145m   v1.32.1   172.31.7.146   <none>        Ubuntu 24.04 LTS     6.8.0-1021-aws   containerd://1.6.33
 worker-node   Ready    <none>          41m    v1.32.1   172.31.5.144   <none>        Ubuntu 24.04.1 LTS   6.8.0-1021-aws   containerd://1.7.12
+```
