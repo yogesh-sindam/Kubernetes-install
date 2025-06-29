@@ -1,5 +1,5 @@
 ## How to install kubernetes cluster (kubeadm setup) on ubuntu:latest version
-https://youtu.be/ScHDSoYzWN4?si=iuuK1xkSLAhDf0cp
+## https://youtu.be/ScHDSoYzWN4?si=iuuK1xkSLAhDf0cp
 ######################################################################
 
 ## Kubernetes Nodes:
