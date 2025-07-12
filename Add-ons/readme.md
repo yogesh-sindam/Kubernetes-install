@@ -92,3 +92,7 @@ spec:
     volumeAttributes:
       mounttargetip: "[MOUNT TARGET IP ADDRESS]"
 ```
+
+
+**This is the only setup for add-on a EFS-CSI driver**
+
