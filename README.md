@@ -129,3 +129,15 @@ master-node   Ready    control-plane   145m   v1.32.1   172.31.7.146   <none>   
 worker-node   Ready    <none>          41m    v1.32.1   172.31.5.144   <none>        Ubuntu 24.04.1 LTS   6.8.0-1021-aws   containerd://1.7.12
 ```
 ....
+
+
+##############################
+the kubernetes Objects 
+```
+pod
+Deployment
+Service
+Ingress
+RBAC
+ServiceAccounts
+```
