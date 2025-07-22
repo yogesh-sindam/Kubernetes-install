@@ -141,4 +141,9 @@ Ingress
 RBAC
 ServiceAccounts
 external secrets
+network policies
+poddisruptionbudget
+HPA 
+VPA
+
 ```
