@@ -140,4 +140,5 @@ Service
 Ingress
 RBAC
 ServiceAccounts
+external secrets
 ```
