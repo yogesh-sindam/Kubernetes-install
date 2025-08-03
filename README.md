@@ -145,5 +145,5 @@ network policies
 poddisruptionbudget
 HPA 
 VPA
-
+ResourceQuota
 ```
