@@ -146,4 +146,5 @@ poddisruptionbudget
 HPA 
 VPA
 ResourceQuota
+IRSA
 ```
