@@ -147,4 +147,5 @@ HPA
 VPA
 ResourceQuota
 IRSA
+.
 ```
