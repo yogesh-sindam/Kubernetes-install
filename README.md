@@ -151,3 +151,5 @@ IRSA
 ```
 #
 ##
+### New Thing learn in kubrnetes 
+`'-' is not worked in k8s including files`
