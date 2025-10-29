@@ -12,7 +12,9 @@ spec:
   egress:
   - to:
     - ipBlock:
-        cidr: 0.0.0.0/0
+        cidr: 10.20.0.0/32
     ports:
     - protocol: TCP
       port: 443
+
+# allowing the external user with 10.20.0.0/32 to access the pod 
